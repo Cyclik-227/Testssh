@@ -121,3 +121,11 @@ footer {
     transform: scale(1.05);
     transition: all 0.1s ease-in-out;
 }
+
+.body_hide {
+	opacity: 0;
+	transition: 0.9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}

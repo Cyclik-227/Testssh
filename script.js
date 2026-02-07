@@ -11,3 +11,7 @@ button2.addEventListener('click', function() {
 document.getElementById('skroll').addEventListener('click', function() {
     document.querySelector('#block2').scrollIntoView({ behavior: 'smooth' });
 });
+
+setTimeout(function(){
+	document.body.classList.add('body_visible');
+}, 200);
